@@ -73,6 +73,6 @@ Creating FOREFIT was an incredibly rewarding experience. It pushed me to explore
 
 Stephen Walters
 
-📧 walte7210@gmail.com
+Email: walte7210@gmail.com
 
-LinkedIn https://www.linkedin.com/in/stephenpwalters/
+LinkedIn: https://www.linkedin.com/in/stephenpwalters/
