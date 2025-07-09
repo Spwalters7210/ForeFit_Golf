@@ -1,4 +1,4 @@
-# ForeFit_Golf
+# FOREFIT Golf
 
 For this project, I decided to create a simple e-commerce site for a fictional golf store by the name 
 of FOREFIT. As an avid golfer, I wanted to build a website around something I am passionate about. 
@@ -7,6 +7,7 @@ well. In my first project deliverable, I mentioned that I am really interested 
 development but still believe it's important to have some knowledge of backend integration. 
 Therefore, I included a login feature using a user's Google account to apply skills I learned in this 
 Course.
+
 However, I made a few changes from my first deliverable. For starters, the store's theme shifted 
 from a luxurios feel to a more outcast/unique brand. Also, Instead of drawing inspiration from the 
 two orginal sites I referenced ,Apple and Rose Island, I decided to take inspiration from existing 
