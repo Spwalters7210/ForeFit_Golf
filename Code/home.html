@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fairway Fittings Home</title>
+    <link rel="stylesheet" href="Css/homestyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navigationbar">
+      <a class="shoplink" href="http://127.0.0.1:5500/Code/home.html"
+        ><img class="simplelogo" src="Images/small logo.png" alt="forefit logo"
+      /></a>
+
+      <h1 class="home">
+      Home</a>
+      </h1>
+      <h1 class="shop">
+        <a class="shoplink" href="http://127.0.0.1:5500/Code/store.html"
+          >Store</a
+        >
+      </h1>
+      <h1 class="about">
+        <a class="shoplink" href="http://127.0.0.1:5500/Code/about.html">About Us</a>
+      </h1>
+
+      <a class="shoplink" href="http://127.0.0.1:5500/Code/store.html">
+        <img
+          class="search"
+          src="Icons/search.png"
+          alt="search magnifying glass"
+      /></a>
+      <div
+        id="g_id_onload"
+        data-client_id="558693314626-cmb2g9v4hik44veetpsnm2uu4101gs3v.apps.googleusercontent.com"
+        data-context="signin"
+        data-ux_mode="popup"
+        data-callback="handleCredentialResponse"
+        data-auto_prompt="false"
+        alt=""
+      ></div>
+      <div class="google-signin">
+        <div id="g_id_signin" class="g_id_signin" data-type="icon">/></div>
+      </div>
+      <a class="shoplink" href="http://127.0.0.1:5500/Code/store.html">
+        <img
+          class="shoppingcart"
+          src="Icons/grocery-store.png"
+          alt="shopping cart icon"
+      /></a>
+    </div>
+    <div class="divider"></div>
+    <div class="logobackground">
+      <p class="logooverlay"></p>
+      <img class="logo" src="Images/logo-white@2x.png" alt="example" />
+      <p class="scrolling"></p>
+    </div>
+    <div class="categories">
+      <div class="custombags">
+        <p class="bagstext">
+          <a
+            class="shoplinkproducts"
+            href="http://127.0.0.1:5500/Code/store.html"
+            >custom golf bags</a
+          >
+        </p>
+      </div>
+      <div class="bryson">
+        <p class="brysontext">
+          <a
+            class="shoplinkproducts"
+            href="http://127.0.0.1:5500/Code/store.html"
+            >Bryson x FOREFIT</a
+          >
+        </p>
+      </div>
+      <div class="hats">
+        <p class="hatstext">
+          <a
+            class="shoplinkproducts"
+            href="http://127.0.0.1:5500/Code/store.html"
+            >shop hats</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="imgdivider"></div>
+    <div class="newcollection">
+      <div class="collectionname">
+        <h1 class="season">ss25</h1>
+        <h2 class="seasontitle">GONE WITH THE WIND</h2>
+      </div>
+      <div class="newcollectioncontents">
+        <div class="container1">
+          <div class="product1">
+            <p class="hattext" href="http://127.0.0.1:5500/Code/store.html">
+              <a
+                class="shoplinkproducts"
+                href="http://127.0.0.1:5500/Code/store.html"
+                >green bucket hat</a
+              >
+            </p>
+            <img
+              class="productimage"
+              src="Images/greenbuckethat.png"
+              alt="Green Bucket Hat"
+            />
+          </div>
+          <div class="product2">
+            <p class="bagtext">
+              <a
+                class="shoplinkproducts"
+                href="http://127.0.0.1:5500/Code/store.html"
+                >St. Patty's bag</a
+              >
+            </p>
+            <img
+              class="productimage"
+              src="Images/St.PaddysBag.png"
+              alt="St. Patricks Day Bag"
+            />
+          </div>
+        </div>
+        <div class="container2">
+          <video
+            class="video"
+            src="Images/seasonalvideo.mov"
+            width="750px"
+            height="400px"
+            autoplay
+            loop
+          ></video>
+          <div class="videooverlay"></div>
+        </div>
+        <div class="container3">
+          <div class="product5">
+            <p class="polotext">
+              <a
+                class="shoplinkproducts"
+                href="http://127.0.0.1:5500/Code/store.html"
+                >ss25 green polo</a
+              >
+            </p>
+            <img
+              class="productimage"
+              src="Images/Shirt-mockup-green.png"
+              alt="Green Shirt"
+            />
+          </div>
+          <div class="product6">
+            <p class="polotext">
+              <a
+                class="shoplinkproducts"
+                href="http://127.0.0.1:5500/Code/store.html"
+                >ss25 green shorts</a
+              >
+            </p>
+            <img
+              class="productimage"
+              src="Images/greenshorts.png"
+              alt="Green Shorts"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script>
+      function handleCredentialResponse(response) {
+        
+        const responsePayload = JSON.parse(
+          atob(response.credential.split(".")[1])
+        );
+
+        console.log("ID: " + responsePayload.sub);
+        console.log("Full Name: " + responsePayload.name);
+        console.log("Email: " + responsePayload.email);
+
+        
+        alert(`Welcome, ${responsePayload.name}!`);
+      }
+    </script>
+  </body>
+</html>
