@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fairway Fittings Shop</title>
+    <link rel="stylesheet" href="Css/storestyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navigationbar">
+      <a class="shoplink" href="http://127.0.0.1:5500/Code/home.html"
+        ><img class="biglogo" src="Images/big logo.png" alt="forefit logo"
+      /></a>
+
+      <h1 class="home">
+        <a class="shoplink" href="http://127.0.0.1:5500/Code/home.html">Home</a>
+      </h1>
+      <h1 class="shop" href="http://127.0.0.1:5500/Code/store.html">Store</h1>
+      <h1 class="about">
+        <a class="shoplink" href="http://127.0.0.1:5500/Code/about.html"
+          >About Us</a
+        >
+      </h1>
+
+      <a class="shoplink" href="http://127.0.0.1:5500/Code/store.html">
+        <img
+          class="search"
+          src="Icons/search.png"
+          alt="search magnifying glass"
+      /></a>
+      <div
+        id="g_id_onload"
+        data-client_id="558693314626-cmb2g9v4hik44veetpsnm2uu4101gs3v.apps.googleusercontent.com"
+        data-context="signin"
+        data-ux_mode="popup"
+        data-callback="handleCredentialResponse"
+        data-auto_prompt="false"
+        alt=""
+      ></div>
+      <div class="google-signin">
+        <div id="g_id_signin" class="g_id_signin" data-type="icon">/></div>
+      </div>
+      <a class="shoplink" href="http://127.0.0.1:5500/Code/store.html">
+        <img
+          class="shoppingcart"
+          src="Icons/grocery-store.png"
+          alt="shopping cart icon"
+      /></a>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="shop-contents">
+      <div class="product1">
+        <h1 class="productname">green flower hat</h1>
+        <img
+          class="productimage"
+          src="Images/hat-mockup-flower.png"
+          alt="Green Flower Hat"
+        />
+      </div>
+      <div class="product2">
+        <h1 class="productname">green tote bag</h1>
+        <img
+          class="productimage"
+          src="Images/Bag-mockup-green.png"
+          alt="Green Tote Bag"
+        />
+      </div>
+      <div class="product3">
+        <h1 class="productname">blue lounge shorts</h1>
+        <img
+          class="productimage"
+          src="Images/Short-mockup-blue.png"
+          alt="Blue Shorts"
+        />
+      </div>
+      <div class="product4">
+        <h1 class="productname">Bryson x FOREFIT hat</h1>
+        <img class="productimage" src="Images/Bryson-.jpg" alt="Bryson" />
+      </div>
+      <div class="product5">
+        <h1 class="productname">mountain range socks</h1>
+        <img class="productimage" src="Images/Socks.png" alt="Socks" />
+      </div>
+      <div class="product6">
+        <h1 class="productname">ss25 green polo</h1>
+        <img
+          class="productimage"
+          src="Images/Shirt-mockup-green.png"
+          alt="Green Shirt"
+        />
+      </div>
+      <div class="product7">
+        <h1 class="productname">Bryson x FOREFIT bag</h1>
+        <img
+          class="productimage"
+          src="Images/Bryson-bag.png"
+          alt="Bryson Bag"
+        />
+      </div>
+      <div class="product8">
+        <h1 class="productname">khaki bucket hat</h1>
+        <img
+          class="productimage"
+          src="Images/yellowbuckethat.png"
+          alt="Yellow Bucket Hat"
+        />
+      </div>
+      <div class="product9">
+        <h1 class="productname">coral fairway polo</h1>
+        <img
+          class="productimage"
+          src="Images/Shirt-mockup-pink.png"
+          alt="Pink Shirt"
+        />
+      </div>
+      <div class="product10">
+        <h1 class="productname">FOREFIT G3 ball</h1>
+        <img
+          class="productimage"
+          src="Images/customball.png"
+          alt="Custom Ball"
+        />
+      </div>
+      <div class="product11">
+        <h1 class="productname">essential polo</h1>
+        <img
+          class="productimage"
+          src="Images/blueandgreenshirt.png"
+          alt="Blue and Green Block Shirt"
+        />
+      </div>
+      <div class="product12">
+        <h1 class="productname">St. Patty's day bag</h1>
+        <img
+          class="productimage"
+          src="Images/St.PaddysBag.png"
+          alt="St. Patricks Day Bag"
+        />
+      </div>
+
+      <div class="footer"></div>
+    </div>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script>
+      function handleCredentialResponse(response) {
+        const responsePayload = JSON.parse(
+          atob(response.credential.split(".")[1])
+        );
+
+        console.log("ID: " + responsePayload.sub);
+        console.log("Full Name: " + responsePayload.name);
+        console.log("Email: " + responsePayload.email);
+
+        alert(`Welcome, ${responsePayload.name}!`);
+      }
+    </script>
+  </body>
+</html>
