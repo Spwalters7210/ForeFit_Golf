@@ -1,19 +1,56 @@
-# FOREFIT Golf
+# FOREFIT – E-Commerce Golf Store
 
-For this project, I decided to create a simple e-commerce site for a fictional golf store by the name 
-of FOREFIT. As an avid golfer, I wanted to build a website around something I am passionate about. 
-The project was primarily completed using HTML and CSS, with some JavaScript incorporated as 
-well. In my first project deliverable, I mentioned that I am really interested in front-end 
-development but still believe it's important to have some knowledge of backend integration. 
-Therefore, I included a login feature using a user's Google account to apply skills I learned in this 
-Course.
+FOREFIT, a fictional e-commerce site created as a final project to showcase my passion for front-end development and my love for golf. This project reflects both my technical growth and personal creativity, blending clean code with a fun and unique brand identity.
 
-However, I made a few changes from my first deliverable. For starters, the store's theme shifted 
-from a luxurios feel to a more outcast/unique brand. Also, Instead of drawing inspiration from the 
-two orginal sites I referenced ,Apple and Rose Island, I decided to take inspiration from existing 
-golf apparel brands, Good Good Golf and Bad Birdie Golf.
-My wife also played a huge role in helping me complete this project. As a graphic designer, she 
-helped create the logo and overall look of the of site. After we achieved the look we were hoping 
-for, I then started to bring it to life through code. I am happy to be able to app this project to my 
-portfolio.
-![image](https://github.com/user-attachments/assets/a462c8d3-6491-492d-84ab-5de601eccbc3)
+🚀 Project Overview
+FOREFIT is a mock e-commerce site for a fictional golf apparel store. Built using HTML, CSS, and a touch of JavaScript, the site features a Google login authentication feature to simulate backend integration and enhance the user experience.
+
+This project allowed me to:
+
+Apply and grow my front-end development skills.
+
+Step into backend integration using Google Authentication.
+
+Collaborate creatively with my wife, a graphic designer, who helped with branding and UI elements.
+
+🧱 Tech Stack
+Frontend: HTML, CSS, JavaScript
+
+Design Tools: Figma, Adobe Illustrator
+
+Authentication: Google OAuth
+
+Mockups: Whiteboard sketches → Figma wireframes
+
+🎨 Design Process
+Initial Concepts: Whiteboard sketches to brainstorm layout and navigation.
+
+Wireframing: Digitized in Figma for clearer structure and design flow.
+
+Brand Identity: Custom logo and product graphics designed in Adobe Illustrator, inspired by modern golf brands like Good Good Golf and Bad Birdie.
+
+🔑 Key Features
+Responsive homepage, shop, and about pages
+
+Google account login integration
+
+Custom logo and brand styling
+
+Fully coded from scratch
+
+Product listings (mock data)
+
+🧠 Challenges Faced
+Learning and implementing Google login for the first time
+
+Accurately bringing mockups to life in HTML/CSS
+
+Creating a consistent and engaging brand identity
+
+💬 Final Thoughts
+Creating FOREFIT was an incredibly rewarding experience. It pushed me to explore new technical territories and build something I'm truly proud of. I hope you enjoy browsing the site as much as I enjoyed building it.
+
+📫 Contact
+Stephen Walters
+📧 walte7210@gmail.com
+LinkedIn https://www.linkedin.com/in/stephenpwalters/
